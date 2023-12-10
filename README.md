@@ -3,7 +3,7 @@
 
   The Predicate Calculus Unifier (PGCU) project aims to implement an algorithm to find the Most General Unifier (MGU) for given     logical predicates. It consists of three main parts:
 
-  Application:
+  ### Application:
     - Classes:
       - PGCU: Implements the Robinson algorithm for finding the Most General Unifier (MGU).
       - Teta: Manages theta substitution for the Robinson algorithm.
@@ -29,8 +29,13 @@
         Allows users to input logical predicates visually.
         Provides a button to trigger the PGCU calculation and displays the resulting calculation.        
       
-   Usage:
+   ### Usage:
     1. Run the application to open the graphical interface (Fenetre class).
     2. Enter logical predicates A and B in the respective input fields.
     3. Click the "Calculer" button to execute the PGCU algorithm.
     4. View the computed result displayed in the GUI.
+
+### NB:
+  The source code are in the repertory 'src' at the root.
+  This project has been coded on the Eclipse IDE for Java Developers - 2023-03.
+  This project has also been realized in the Formal Logic course.
