@@ -243,6 +243,12 @@ public class PGCU {
 	 */
 	public static String instruction() {
 		String newline = System.getProperty("line.separator");
+		/* Here is a translation of the following text in engish: 
+  		 * We are performing the calculation of the PGCU. 
+		 * The accepted variables are: t, u, v, w, x, y, z. 
+		 * The accepted constants are: a, b, c, d, e. 
+		 * The accepted functions are: f, h.
+		 */
 		return "Nous réalisons le calsul du PGCU. "+newline
 				+ "Les variables acceptées sont: t, u, v, w, x, y, z. "+newline
 				+ "Les constantes acceptées sont: a, b, c, d, e. "+newline
